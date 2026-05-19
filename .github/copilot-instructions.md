@@ -1,0 +1,5 @@
+- Project: Fake Profile Detection System.
+- Stack: React, Vite, Tailwind CSS, Framer Motion, Chart.js, Express, MongoDB, JWT, FastAPI, and scikit-learn.
+- Use reusable components, responsive layouts, and a futuristic dark glassmorphism design.
+- Keep API, UI, and AI service changes consistent with the existing full-stack architecture.
+- Prefer minimal focused edits and validate with a build or smoke test after code changes.

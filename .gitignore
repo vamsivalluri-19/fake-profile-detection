@@ -1,0 +1,13 @@
+node_modules
+.env
+.env.*
+__pycache__
+*.pyc
+client/dist
+server/node_modules
+client/node_modules
+ai-model/.venv
+ai-model/__pycache__
+.DS_Store
+.vscode/.ropeproject
+coverage
