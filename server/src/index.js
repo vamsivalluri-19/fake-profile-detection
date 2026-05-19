@@ -1,8 +1,8 @@
 const { createApp } = require('./app');
 const { connectDatabase } = require('./config/db');
 
-// Prefer PORT env var; default to 5001 to avoid common 5000 conflicts in dev
-const PORT = process.env.PORT || 5001;
+// Prefer PORT env var; default to 5000 to match the documented client API URL.
+const PORT = process.env.PORT || 5000;
 
 async function bootstrap() {
   await connectDatabase();
